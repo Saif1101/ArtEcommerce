@@ -46,7 +46,7 @@ class AppRouter {
       case AddEditAddressScreen.routeName: 
         return AddEditAddressScreen.route();
       case SelectAddressScreen.routeName:
-        return SelectAddressScreen.route();
+        return SelectAddressScreen.route(settings.arguments as bool);
       case SearchPage.routeName: 
         return SearchPage.route();
       case OrderHistory.routeName:

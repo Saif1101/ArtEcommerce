@@ -6,7 +6,7 @@ import 'package:equatable/equatable.dart';
 
 class OrderEntity extends Equatable{
   final String orderID;
-  final List<OrderedProduct> products; 
+  final List<OrderProductEntity> products; 
   final AddressEntity address; 
 
   final DateTime dateTime; 

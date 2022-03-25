@@ -40,7 +40,7 @@ class _SelectViewWidgetState extends State<SelectViewWidget> {
                 Text(
                   'Grid',
                   style: TextStyle(
-                    color: gridView ? Colors.white : Colors.black,
+                  color: gridView ? Colors.white : Colors.black,
                   ),
                 ),
                 Icon(

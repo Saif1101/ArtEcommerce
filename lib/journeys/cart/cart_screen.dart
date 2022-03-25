@@ -59,7 +59,7 @@ class CartScreen extends StatelessWidget {
                       child: Material(
                         elevation: 10,
                         child: GestureDetector(
-                          onTap: ()=>{Navigator.pushNamed(context, '/select-address')},
+                          onTap: ()=>{Navigator.pushNamed(context, '/select-address', arguments: true)},
                           child: BlackButtonWithText(text: 'Proceed'),
                         ),
                       ),

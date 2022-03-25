@@ -1,18 +1,18 @@
 import 'package:art_ecommerce/entities/AddressEntity.dart';
 import 'package:flutter/material.dart';
 
-Widget AddressExpansionTile(AddressEntity address, BuildContext context) 
+Widget AddressExpansionTile(
+  {required AddressEntity address, 
+  required BuildContext context,
+  required VoidCallback? onLongPress, }
+) 
   {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Card(
         child: ExpansionTile(
           trailing: GestureDetector(
-            onLongPress: ()
-            { 
-              print('Pushing to order-confirmation');
-              Navigator.pushNamed(context, '/order-confirmation');
-            }, //Direct to the next page
+            onLongPress: onLongPress, //Direct to the next page
             child: Icon(
               Icons.arrow_right,
               color: Colors.black,
@@ -46,7 +46,7 @@ Widget AddressExpansionTile(AddressEntity address, BuildContext context)
               height: 5,
             ),
             Text(
-              address.address2 + address.address2 + address.address2,
+              address.address2,
               style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w300),
             ),
             SizedBox(

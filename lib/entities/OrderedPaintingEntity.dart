@@ -1,8 +1,8 @@
 import 'package:art_ecommerce/entities/PaintingEntity.dart';
 
-class OrderedProduct{
+class OrderProductEntity{
   final PaintingEntity product; 
   final int quantity;
 
-  OrderedProduct({required this.product, required this.quantity});
+  OrderProductEntity({required this.product, required this.quantity});
 }

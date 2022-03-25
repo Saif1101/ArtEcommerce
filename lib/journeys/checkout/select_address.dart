@@ -5,14 +5,15 @@ import 'package:art_ecommerce/widgets/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
 class SelectAddressScreen extends StatefulWidget {
-  const SelectAddressScreen({Key? key}) : super(key: key);
+  final bool directToConfirmationPage;
+  const SelectAddressScreen({Key? key, required this.directToConfirmationPage}) : super(key: key);
 
   static const String routeName = '/select-address';
 
-  static Route route() {
+  static Route route(bool directToConfirmationPage) {
     return MaterialPageRoute(
       settings: RouteSettings(name: routeName),
-      builder: (_) => SelectAddressScreen(),
+      builder: (_) => SelectAddressScreen(directToConfirmationPage: directToConfirmationPage,),
     );
   }
 
@@ -36,10 +37,14 @@ class _SelectAddressScreenState extends State<SelectAddressScreen> {
               child: ListView.builder(   
                 scrollDirection: Axis.vertical,
                 shrinkWrap: true,
-                physics: BouncingScrollPhysics(),
+                physics: const BouncingScrollPhysics(),
                 itemCount: 4,
                 itemBuilder: (BuildContext context, int index) {
-                  return AddressExpansionTile( Models.addresses[index], context,);
+                  return AddressExpansionTile(
+                    address: Models.addresses[index], 
+                    context: context,
+                    onLongPress: widget.directToConfirmationPage ? (){Navigator.pushNamed(context, '/order-confirmation');} :(){}
+                    );
                 },
               ),
             ),

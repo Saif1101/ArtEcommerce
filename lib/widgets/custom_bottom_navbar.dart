@@ -31,7 +31,6 @@ class CustomBottomNavBar extends StatelessWidget {
         
       ],
       onTap: (index){
-        print('navigating to $index');
         navigationOnTap(index); 
       },
       backgroundColor: Colors.white,

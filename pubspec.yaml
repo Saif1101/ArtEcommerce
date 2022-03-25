@@ -46,6 +46,7 @@ dependencies:
   dartz:
   cached_network_image:
   expansion_tile_card:
+  step_progress_indicator: 
 
   
 dependency_overrides:

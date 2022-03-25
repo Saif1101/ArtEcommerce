@@ -47,7 +47,7 @@ class ProfileScreen extends StatelessWidget {
       ListTile(
           title: const Text('Address Book'),
           onTap: () {
-            Navigator.pushNamed(context, '/select-address');
+            Navigator.pushNamed(context, '/select-address', arguments: false);
           },
       ),
       ListTile(

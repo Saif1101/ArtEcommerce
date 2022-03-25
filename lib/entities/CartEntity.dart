@@ -3,27 +3,10 @@ import 'package:art_ecommerce/models/models.dart';
 import 'package:equatable/equatable.dart';
 
 class Cart extends Equatable {
+  //List<OrderProductEntity> products;
 
   Cart();
 
-
-   
-
-  final PaintingEntity samplePainting = const PaintingEntity(
-      imageURL:
-          "https://cdn11.bigcommerce.com/s-x49po/images/stencil/1280x1280/products/48531/64528/1580979349267_Heron_painting_sunset__95466.1581158272.jpg?c=2",
-      paintingID: 'Heron',
-      title: 'Heron',
-      themes: ['Nature', 'Animals', 'Portrait'],
-      themesID: ['001', '002', '003'],
-      description:
-          'Bird on sunset painting (ART_4772_44791) - Handpainted Art Painting - 22in X 28in',
-      isFeatured: true,
-      isPopular: true,
-      price: 7890,
-      availability: 'Available');
-
-  
 
   double get subtotal =>
       Models.products.fold(0, (total, current) => total + current.price);
