@@ -1,16 +1,54 @@
-# art_ecommerce
+# Artistique
 
-A new Flutter project.
+Art E-Commerce Store Prototype.
 
-## Getting Started
+## Login 
+---
+<img src="https://i.imgur.com/FvfhXx4.png">
 
-This project is a starting point for a Flutter application.
+## Home 
+---
+A Swiper and ListViews to showcase your products.
 
-A few resources to get you started if this is your first Flutter project:
+![Couldn't load GIF](https://media.giphy.com/media/88548qtfWejHbklnDy/giphy.gif)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Products And Themes 
+--- 
+![Couldn't load GIF](https://media.giphy.com/media/czwSbpgN36SbRzDn3t/giphy.gif)  ![Couldn't load GIF](https://media.giphy.com/media/wDbA3hQg8rJFBprFK7/giphy.gif) ![Couldn't load GIF](https://media.giphy.com/media/rkTrmF9ccAODpobs98/giphy.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+### Filter, Sort and View
+---
+
+![Couldn't load GIF](https://media.giphy.com/media/P6bNnfpQgdTtqTzUAR/giphy.gif)  ![Couldn't load GIF](https://media.giphy.com/media/9cAmlG1r4dCMRevDJy/giphy.gif) ![Couldn't load GIF](https://media.giphy.com/media/weOk5xTACPJfYzoyMx/giphy.gif)
+
+## Profile 
+---
+See your profile and all your wishlisted products. 
+
+<img src="https://i.imgur.com/21mnRAJ.png">
+
+## Orders, Support, Information and More
+--- 
+![Couldn't load GIF](https://media.giphy.com/media/za89hPHsOYCh3Vc1Di/giphy.gif)  ![Couldn't load GIF](https://media.giphy.com/media/I4K7ZEodr9qKkYQDQg/giphy.gif) ![Couldn't load GIF](https://media.giphy.com/media/pxAEhHRILjV2BRa9wZ/giphy.gif)
+
+## Cart
+---
+<img src="https://i.imgur.com/21mnRAJ.png">
+
+## Confirmation->Order Placed
+---
+
+![Couldn't load GIF](https://media.giphy.com/media/4PWgUSOjqhcrScX2LI/giphy.gif)  
+
+<img src="https://i.imgur.com/PyaPQYM.png">
+
+
+
+
+
+
+
+
+
